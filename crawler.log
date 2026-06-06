@@ -1,0 +1,409 @@
+2026-06-06 14:52:13,355 [INFO] TestRunner: === Testing crawler: yellowpages ===
+2026-06-06 14:52:14,234 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 14:52:31,571 [ERROR] YellowpagesCrawler: Error in YellowpagesCrawler run: 'module' object is not callable
+2026-06-06 14:52:31,649 [INFO] TestRunner: Crawler run finished. Found 0 records.
+2026-06-06 14:52:31,649 [WARNING] TestRunner: No results returned for yellowpages. This might be due to blocking, empty listings, or parser issues.
+2026-06-06 14:53:39,064 [INFO] TestRunner: === Testing crawler: yellowpages ===
+2026-06-06 14:53:39,576 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 14:53:39,879 [INFO] YellowpagesCrawler: Navigating to: https://www.yellowpages.com/search?search_terms=Spa+Consultants&geo_location_terms=Noida
+2026-06-06 14:53:47,752 [INFO] YellowpagesCrawler: Found 0 listing cards.
+2026-06-06 14:53:47,752 [INFO] YellowpagesCrawler: Extracted 0 detail URLs to crawl.
+2026-06-06 14:53:47,820 [INFO] TestRunner: Crawler run finished. Found 0 records.
+2026-06-06 14:53:47,820 [WARNING] TestRunner: No results returned for yellowpages. This might be due to blocking, empty listings, or parser issues.
+2026-06-06 14:54:00,414 [INFO] TestRunner: === Testing crawler: yellowpages ===
+2026-06-06 14:54:00,874 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0
+2026-06-06 14:54:01,154 [INFO] YellowpagesCrawler: Navigating to: https://www.yellowpages.com/search?search_terms=Spa&geo_location_terms=New+York
+2026-06-06 14:54:06,338 [INFO] YellowpagesCrawler: Found 0 listing cards.
+2026-06-06 14:54:06,339 [INFO] YellowpagesCrawler: Extracted 0 detail URLs to crawl.
+2026-06-06 14:54:06,417 [INFO] TestRunner: Crawler run finished. Found 0 records.
+2026-06-06 14:54:06,417 [WARNING] TestRunner: No results returned for yellowpages. This might be due to blocking, empty listings, or parser issues.
+2026-06-06 15:03:41,340 [INFO] TestRunner: === Testing crawler: justdial ===
+2026-06-06 15:03:42,565 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 15:03:43,082 [INFO] JustdialCrawler: Navigating to Justdial: https://www.justdial.com/Noida/Spa-Consultants
+2026-06-06 15:03:46,350 [ERROR] JustdialCrawler: Error in JustdialCrawler run: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.justdial.com/Noida/Spa-Consultants
+Call log:
+  - navigating to "https://www.justdial.com/Noida/Spa-Consultants", waiting until "domcontentloaded"
+
+2026-06-06 15:03:46,578 [INFO] TestRunner: Crawler run finished. Found 0 records.
+2026-06-06 15:03:46,578 [WARNING] TestRunner: No results returned for justdial. This might be due to blocking, empty listings, or parser issues.
+2026-06-06 15:04:09,546 [INFO] TestRunner: === Testing crawler: justdial ===
+2026-06-06 15:04:10,555 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 15:04:11,031 [INFO] JustdialCrawler: Navigating to Justdial: https://www.justdial.com/Noida/Spa-Consultants
+2026-06-06 15:04:56,052 [ERROR] JustdialCrawler: Error in JustdialCrawler run: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.justdial.com/Noida/Spa-Consultants", waiting until "domcontentloaded"
+
+2026-06-06 15:04:56,168 [INFO] TestRunner: Crawler run finished. Found 0 records.
+2026-06-06 15:04:56,169 [WARNING] TestRunner: No results returned for justdial. This might be due to blocking, empty listings, or parser issues.
+2026-06-06 15:05:15,117 [INFO] TestRunner: === Testing crawler: indiamart ===
+2026-06-06 15:05:15,801 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0
+2026-06-06 15:05:16,165 [INFO] IndiamartCrawler: Navigating to Indiamart: https://dir.indiamart.com/search.mp?ss=Spa+Consultants&cq=Noida
+2026-06-06 15:05:21,662 [INFO] IndiamartCrawler: Scrolling down Indiamart listings...
+2026-06-06 15:05:23,598 [INFO] IndiamartCrawler: Found 0 listings on Indiamart.
+2026-06-06 15:05:23,788 [INFO] TestRunner: Crawler run finished. Found 0 records.
+2026-06-06 15:05:23,789 [WARNING] TestRunner: No results returned for indiamart. This might be due to blocking, empty listings, or parser issues.
+2026-06-06 15:29:18,306 [INFO] TestRunner: === Testing crawler: tradeindia ===
+2026-06-06 15:29:18,786 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 15:29:19,074 [INFO] TradeindiaCrawler: Navigating to Tradeindia: https://www.tradeindia.com/search.html?keyword=Spa+Consultants&city=Noida
+2026-06-06 15:29:28,703 [INFO] TradeindiaCrawler: Scrolling down Tradeindia listings...
+2026-06-06 15:29:30,235 [INFO] TradeindiaCrawler: Found 11 listings on Tradeindia.
+2026-06-06 15:29:30,321 [INFO] TestRunner: Crawler run finished. Found 0 records.
+2026-06-06 15:29:30,321 [WARNING] TestRunner: No results returned for tradeindia. This might be due to blocking, empty listings, or parser issues.
+2026-06-06 16:00:03,948 [INFO] TestRunner: === Testing crawler: tradeindia ===
+2026-06-06 16:00:06,376 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 16:00:06,816 [INFO] TradeindiaCrawler: Navigating to Tradeindia: https://www.tradeindia.com/search.html?keyword=Spa+Consultants&city=Noida
+2026-06-06 16:00:22,989 [INFO] TradeindiaCrawler: Scrolling down Tradeindia listings...
+2026-06-06 16:00:24,990 [INFO] TradeindiaCrawler: Found 11 listings on Tradeindia.
+2026-06-06 16:00:24,998 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: COSMETICO FABRICA | Phone: 
+2026-06-06 16:00:25,000 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SPAMBIANCE CONSULTANCY | Phone: 
+2026-06-06 16:00:25,117 [INFO] TestRunner: Crawler run finished. Found 2 records.
+2026-06-06 16:00:25,340 [INFO] CrawlerUtils: Successfully saved 2 listings to:
+2026-06-06 16:00:25,340 [INFO] CrawlerUtils:  - CSV: output\test_tradeindia_output.csv
+2026-06-06 16:00:25,340 [INFO] CrawlerUtils:  - Excel: output\test_tradeindia_output.xlsx
+2026-06-06 16:00:25,340 [INFO] TestRunner: Test listing successfully exported!
+2026-06-06 16:49:38,554 [INFO] CrawlerOrchestrator: Running crawl for Site: justdial, City: Noida, Category: Hotel Kit Suppliers
+2026-06-06 16:49:38,883 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2026-06-06 16:49:39,149 [INFO] JustdialCrawler: Navigating to Justdial: https://www.justdial.com/Noida/Hotel-Kit-Suppliers
+2026-06-06 16:50:01,891 [ERROR] JustdialCrawler: Error in JustdialCrawler run: Page.goto: net::ERR_CONNECTION_RESET at https://www.justdial.com/Noida/Hotel-Kit-Suppliers
+Call log:
+  - navigating to "https://www.justdial.com/Noida/Hotel-Kit-Suppliers", waiting until "domcontentloaded"
+
+2026-06-06 16:50:02,010 [INFO] CrawlerOrchestrator: No listings found for [cyan]JUSTDIAL[/cyan] | Noida | Hotel Kit Suppliers
+2026-06-06 16:50:02,010 [INFO] CrawlerOrchestrator: Running crawl for Site: justdial, City: Noida, Category: disposable cutlery
+2026-06-06 16:50:02,326 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 16:50:02,482 [INFO] JustdialCrawler: Navigating to Justdial: https://www.justdial.com/Noida/disposable-cutlery
+2026-06-06 16:50:47,491 [ERROR] JustdialCrawler: Error in JustdialCrawler run: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.justdial.com/Noida/disposable-cutlery", waiting until "domcontentloaded"
+
+2026-06-06 16:50:47,572 [INFO] CrawlerOrchestrator: No listings found for [cyan]JUSTDIAL[/cyan] | Noida | disposable cutlery
+2026-06-06 16:50:47,573 [INFO] CrawlerOrchestrator: Running crawl for Site: justdial, City: Delhi, Category: Hotel Kit Suppliers
+2026-06-06 16:50:47,877 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2026-06-06 16:50:48,033 [INFO] JustdialCrawler: Navigating to Justdial: https://www.justdial.com/Delhi/Hotel-Kit-Suppliers
+2026-06-06 16:51:33,044 [ERROR] JustdialCrawler: Error in JustdialCrawler run: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.justdial.com/Delhi/Hotel-Kit-Suppliers", waiting until "domcontentloaded"
+
+2026-06-06 16:51:33,160 [INFO] CrawlerOrchestrator: No listings found for [cyan]JUSTDIAL[/cyan] | Delhi | Hotel Kit Suppliers
+2026-06-06 16:51:33,160 [INFO] CrawlerOrchestrator: Running crawl for Site: justdial, City: Delhi, Category: disposable cutlery
+2026-06-06 16:51:33,478 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 16:51:33,658 [INFO] JustdialCrawler: Navigating to Justdial: https://www.justdial.com/Delhi/disposable-cutlery
+2026-06-06 16:52:18,677 [ERROR] JustdialCrawler: Error in JustdialCrawler run: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.justdial.com/Delhi/disposable-cutlery", waiting until "domcontentloaded"
+
+2026-06-06 16:52:18,796 [INFO] CrawlerOrchestrator: No listings found for [cyan]JUSTDIAL[/cyan] | Delhi | disposable cutlery
+2026-06-06 16:52:18,797 [INFO] CrawlerOrchestrator: Running crawl for Site: indiamart, City: Noida, Category: Hotel Kit Suppliers
+2026-06-06 16:52:19,083 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 16:52:19,224 [INFO] IndiamartCrawler: Navigating to Indiamart: https://dir.indiamart.com/search.mp?ss=Hotel+Kit+Suppliers&cq=Noida
+2026-06-06 16:52:24,127 [INFO] IndiamartCrawler: Scrolling down Indiamart listings...
+2026-06-06 16:52:25,677 [INFO] IndiamartCrawler: Found 0 listings on Indiamart.
+2026-06-06 16:52:25,831 [INFO] CrawlerOrchestrator: No listings found for [cyan]INDIAMART[/cyan] | Noida | Hotel Kit Suppliers
+2026-06-06 16:52:25,832 [INFO] CrawlerOrchestrator: Running crawl for Site: indiamart, City: Noida, Category: disposable cutlery
+2026-06-06 16:52:26,126 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 16:52:26,278 [INFO] IndiamartCrawler: Navigating to Indiamart: https://dir.indiamart.com/search.mp?ss=disposable+cutlery&cq=Noida
+2026-06-06 16:52:31,785 [INFO] IndiamartCrawler: Scrolling down Indiamart listings...
+2026-06-06 16:52:33,623 [INFO] IndiamartCrawler: Found 0 listings on Indiamart.
+2026-06-06 16:52:33,746 [INFO] CrawlerOrchestrator: No listings found for [cyan]INDIAMART[/cyan] | Noida | disposable cutlery
+2026-06-06 16:52:33,750 [INFO] CrawlerOrchestrator: Running crawl for Site: indiamart, City: Delhi, Category: Hotel Kit Suppliers
+2026-06-06 16:52:34,050 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 16:52:34,203 [INFO] IndiamartCrawler: Navigating to Indiamart: https://dir.indiamart.com/search.mp?ss=Hotel+Kit+Suppliers&cq=Delhi
+2026-06-06 16:52:39,297 [INFO] IndiamartCrawler: Scrolling down Indiamart listings...
+2026-06-06 16:52:41,559 [INFO] IndiamartCrawler: Found 0 listings on Indiamart.
+2026-06-06 16:52:41,676 [INFO] CrawlerOrchestrator: No listings found for [cyan]INDIAMART[/cyan] | Delhi | Hotel Kit Suppliers
+2026-06-06 16:52:41,677 [INFO] CrawlerOrchestrator: Running crawl for Site: indiamart, City: Delhi, Category: disposable cutlery
+2026-06-06 16:52:41,959 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 16:52:42,099 [INFO] IndiamartCrawler: Navigating to Indiamart: https://dir.indiamart.com/search.mp?ss=disposable+cutlery&cq=Delhi
+2026-06-06 16:52:47,222 [INFO] IndiamartCrawler: Scrolling down Indiamart listings...
+2026-06-06 16:52:49,290 [INFO] IndiamartCrawler: Found 0 listings on Indiamart.
+2026-06-06 16:52:49,426 [INFO] CrawlerOrchestrator: No listings found for [cyan]INDIAMART[/cyan] | Delhi | disposable cutlery
+2026-06-06 16:52:49,427 [INFO] CrawlerOrchestrator: Running crawl for Site: tradeindia, City: Noida, Category: Hotel Kit Suppliers
+2026-06-06 16:52:49,740 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2026-06-06 16:52:49,935 [INFO] TradeindiaCrawler: Navigating to Tradeindia: https://www.tradeindia.com/search.html?keyword=Hotel+Kit+Suppliers&city=Noida
+2026-06-06 16:52:57,720 [INFO] TradeindiaCrawler: Scrolling down Tradeindia listings...
+2026-06-06 16:52:59,264 [INFO] TradeindiaCrawler: Found 28 listings on Tradeindia.
+2026-06-06 16:52:59,275 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: ARHAM HYGIENIX | Phone: 
+2026-06-06 16:52:59,282 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SINDHU ULTRAMARINE CHEMICALS PVT LTD | Phone: 
+2026-06-06 16:52:59,287 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Vedika Beauty Care Pvt Ltd | Phone: 
+2026-06-06 16:52:59,293 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: IMPULSE CHEMICAL & SURFOCANT | Phone: 
+2026-06-06 16:52:59,300 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Global Karobar | Phone: 
+2026-06-06 16:52:59,308 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SPICE HERBALS & AMENITIES PRIVATE LIMITED | Phone: 
+2026-06-06 16:52:59,313 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: God Willing Pouch MFG. CO. | Phone: 
+2026-06-06 16:52:59,319 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: AMISHRIT TERRENE (OPC) PRIVATE LIMITED | Phone: 
+2026-06-06 16:52:59,324 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Natural Aroma | Phone: 
+2026-06-06 16:52:59,329 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Leafglory | Phone: 
+2026-06-06 16:52:59,478 [INFO] CrawlerOrchestrator: Retrieved 10 listings from [cyan]TRADEINDIA[/cyan] | Noida | Hotel Kit Suppliers
+2026-06-06 16:52:59,995 [INFO] CrawlerUtils: Successfully saved 10 listings to:
+2026-06-06 16:52:59,997 [INFO] CrawlerUtils:  - CSV: output\business_listings.csv
+2026-06-06 16:52:59,997 [INFO] CrawlerUtils:  - Excel: output\business_listings.xlsx
+2026-06-06 16:52:59,998 [INFO] CrawlerOrchestrator: Running crawl for Site: tradeindia, City: Noida, Category: disposable cutlery
+2026-06-06 16:53:01,158 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 16:53:01,662 [INFO] TradeindiaCrawler: Navigating to Tradeindia: https://www.tradeindia.com/search.html?keyword=disposable+cutlery&city=Noida
+2026-06-06 16:53:09,101 [INFO] TradeindiaCrawler: Scrolling down Tradeindia listings...
+2026-06-06 16:53:10,252 [INFO] TradeindiaCrawler: Found 29 listings on Tradeindia.
+2026-06-06 16:53:10,255 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Disposable Point | Phone: 
+2026-06-06 16:53:10,256 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: DISPOSABLE POINT | Phone: 
+2026-06-06 16:53:10,259 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: ATUL TRADING COMPANY | Phone: 
+2026-06-06 16:53:10,260 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: RADIANT PLASTIC | Phone: 
+2026-06-06 16:53:10,262 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: GLORIIOUS INNOVATIONS | Phone: 
+2026-06-06 16:53:10,264 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SOLUTION 4U | Phone: 
+2026-06-06 16:53:10,266 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: RIDHHI FLEXIBLE PACKAGING | Phone: 
+2026-06-06 16:53:10,267 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: BEAUTY PLASTICS | Phone: 
+2026-06-06 16:53:10,268 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Jain Plascons | Phone: 
+2026-06-06 16:53:10,269 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SUKH JAN DISPOSABLES LLP | Phone: 
+2026-06-06 16:53:10,355 [INFO] CrawlerOrchestrator: Retrieved 10 listings from [cyan]TRADEINDIA[/cyan] | Noida | disposable cutlery
+2026-06-06 16:53:10,408 [INFO] CrawlerUtils: Successfully saved 20 listings to:
+2026-06-06 16:53:10,409 [INFO] CrawlerUtils:  - CSV: output\business_listings.csv
+2026-06-06 16:53:10,409 [INFO] CrawlerUtils:  - Excel: output\business_listings.xlsx
+2026-06-06 16:53:10,409 [INFO] CrawlerOrchestrator: Running crawl for Site: tradeindia, City: Delhi, Category: Hotel Kit Suppliers
+2026-06-06 16:53:10,694 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 16:53:10,885 [INFO] TradeindiaCrawler: Navigating to Tradeindia: https://www.tradeindia.com/search.html?keyword=Hotel+Kit+Suppliers&city=Delhi
+2026-06-06 16:53:26,000 [INFO] TradeindiaCrawler: Scrolling down Tradeindia listings...
+2026-06-06 16:53:27,720 [INFO] TradeindiaCrawler: Found 28 listings on Tradeindia.
+2026-06-06 16:53:27,722 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: ARHAM HYGIENIX | Phone: 
+2026-06-06 16:53:27,724 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SINDHU ULTRAMARINE CHEMICALS PVT LTD | Phone: 
+2026-06-06 16:53:27,725 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Vedika Beauty Care Pvt Ltd | Phone: 
+2026-06-06 16:53:27,727 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: IMPULSE CHEMICAL & SURFOCANT | Phone: 
+2026-06-06 16:53:27,728 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Global Karobar | Phone: 
+2026-06-06 16:53:27,730 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SPICE HERBALS & AMENITIES PRIVATE LIMITED | Phone: 
+2026-06-06 16:53:27,732 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: God Willing Pouch MFG. CO. | Phone: 
+2026-06-06 16:53:27,734 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: AMISHRIT TERRENE (OPC) PRIVATE LIMITED | Phone: 
+2026-06-06 16:53:27,735 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Natural Aroma | Phone: 
+2026-06-06 16:53:27,737 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Leafglory | Phone: 
+2026-06-06 16:53:27,817 [INFO] CrawlerOrchestrator: Retrieved 10 listings from [cyan]TRADEINDIA[/cyan] | Delhi | Hotel Kit Suppliers
+2026-06-06 16:53:27,871 [INFO] CrawlerUtils: Successfully saved 30 listings to:
+2026-06-06 16:53:27,871 [INFO] CrawlerUtils:  - CSV: output\business_listings.csv
+2026-06-06 16:53:27,871 [INFO] CrawlerUtils:  - Excel: output\business_listings.xlsx
+2026-06-06 16:53:27,872 [INFO] CrawlerOrchestrator: Running crawl for Site: tradeindia, City: Delhi, Category: disposable cutlery
+2026-06-06 16:53:28,190 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0
+2026-06-06 16:53:28,324 [INFO] TradeindiaCrawler: Navigating to Tradeindia: https://www.tradeindia.com/search.html?keyword=disposable+cutlery&city=Delhi
+2026-06-06 16:53:37,204 [INFO] TradeindiaCrawler: Scrolling down Tradeindia listings...
+2026-06-06 16:53:38,466 [INFO] TradeindiaCrawler: Found 29 listings on Tradeindia.
+2026-06-06 16:53:38,468 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Disposable Point | Phone: 
+2026-06-06 16:53:38,470 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: DISPOSABLE POINT | Phone: 
+2026-06-06 16:53:38,472 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: ATUL TRADING COMPANY | Phone: 
+2026-06-06 16:53:38,474 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: RADIANT PLASTIC | Phone: 
+2026-06-06 16:53:38,476 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: GLORIIOUS INNOVATIONS | Phone: 
+2026-06-06 16:53:38,478 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SOLUTION 4U | Phone: 
+2026-06-06 16:53:38,479 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: RIDHHI FLEXIBLE PACKAGING | Phone: 
+2026-06-06 16:53:38,481 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: BEAUTY PLASTICS | Phone: 
+2026-06-06 16:53:38,482 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Jain Plascons | Phone: 
+2026-06-06 16:53:38,483 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SUKH JAN DISPOSABLES LLP | Phone: 
+2026-06-06 16:53:38,561 [INFO] CrawlerOrchestrator: Retrieved 10 listings from [cyan]TRADEINDIA[/cyan] | Delhi | disposable cutlery
+2026-06-06 16:53:38,616 [INFO] CrawlerUtils: Successfully saved 40 listings to:
+2026-06-06 16:53:38,616 [INFO] CrawlerUtils:  - CSV: output\business_listings.csv
+2026-06-06 16:53:38,617 [INFO] CrawlerUtils:  - Excel: output\business_listings.xlsx
+2026-06-06 16:53:38,617 [INFO] CrawlerOrchestrator: Running crawl for Site: yellowpages, City: Noida, Category: Hotel Kit Suppliers
+2026-06-06 16:53:38,903 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 16:53:39,048 [INFO] YellowpagesCrawler: Navigating to: https://www.yellowpages.com/search?search_terms=Hotel+Kit+Suppliers&geo_location_terms=Noida
+2026-06-06 16:53:43,585 [INFO] YellowpagesCrawler: Found 0 listing cards.
+2026-06-06 16:53:43,585 [INFO] YellowpagesCrawler: Extracted 0 detail URLs to crawl.
+2026-06-06 16:53:43,662 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELLOWPAGES[/cyan] | Noida | Hotel Kit Suppliers
+2026-06-06 16:53:43,662 [INFO] CrawlerOrchestrator: Running crawl for Site: yellowpages, City: Noida, Category: disposable cutlery
+2026-06-06 16:53:43,945 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0
+2026-06-06 16:53:44,094 [INFO] YellowpagesCrawler: Navigating to: https://www.yellowpages.com/search?search_terms=disposable+cutlery&geo_location_terms=Noida
+2026-06-06 16:53:48,994 [INFO] YellowpagesCrawler: Found 0 listing cards.
+2026-06-06 16:53:48,995 [INFO] YellowpagesCrawler: Extracted 0 detail URLs to crawl.
+2026-06-06 16:53:49,064 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELLOWPAGES[/cyan] | Noida | disposable cutlery
+2026-06-06 16:53:49,065 [INFO] CrawlerOrchestrator: Running crawl for Site: yellowpages, City: Delhi, Category: Hotel Kit Suppliers
+2026-06-06 16:53:49,343 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 16:53:49,479 [INFO] YellowpagesCrawler: Navigating to: https://www.yellowpages.com/search?search_terms=Hotel+Kit+Suppliers&geo_location_terms=Delhi
+2026-06-06 16:53:54,765 [INFO] YellowpagesCrawler: Found 0 listing cards.
+2026-06-06 16:53:54,765 [INFO] YellowpagesCrawler: Extracted 0 detail URLs to crawl.
+2026-06-06 16:53:54,837 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELLOWPAGES[/cyan] | Delhi | Hotel Kit Suppliers
+2026-06-06 16:53:54,837 [INFO] CrawlerOrchestrator: Running crawl for Site: yellowpages, City: Delhi, Category: disposable cutlery
+2026-06-06 16:53:55,119 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 16:53:55,261 [INFO] YellowpagesCrawler: Navigating to: https://www.yellowpages.com/search?search_terms=disposable+cutlery&geo_location_terms=Delhi
+2026-06-06 16:53:59,155 [INFO] YellowpagesCrawler: Found 0 listing cards.
+2026-06-06 16:53:59,156 [INFO] YellowpagesCrawler: Extracted 0 detail URLs to crawl.
+2026-06-06 16:53:59,217 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELLOWPAGES[/cyan] | Delhi | disposable cutlery
+2026-06-06 16:53:59,217 [INFO] CrawlerOrchestrator: Running crawl for Site: yelp, City: Noida, Category: Hotel Kit Suppliers
+2026-06-06 16:53:59,217 [INFO] YelpCrawler: YELP_API_KEY not found. Attempting Playwright scraping.
+2026-06-06 16:53:59,486 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 16:53:59,624 [INFO] YelpCrawler: Navigating to: https://www.yelp.com/search?find_desc=Hotel+Kit+Suppliers&find_loc=Noida
+2026-06-06 16:54:05,102 [INFO] YelpCrawler: Found 0 unique Yelp business detail URLs.
+2026-06-06 16:54:05,178 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELP[/cyan] | Noida | Hotel Kit Suppliers
+2026-06-06 16:54:05,178 [INFO] CrawlerOrchestrator: Running crawl for Site: yelp, City: Noida, Category: disposable cutlery
+2026-06-06 16:54:05,179 [INFO] YelpCrawler: YELP_API_KEY not found. Attempting Playwright scraping.
+2026-06-06 16:54:05,452 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2026-06-06 16:54:05,587 [INFO] YelpCrawler: Navigating to: https://www.yelp.com/search?find_desc=disposable+cutlery&find_loc=Noida
+2026-06-06 16:54:10,937 [INFO] YelpCrawler: Found 0 unique Yelp business detail URLs.
+2026-06-06 16:54:11,018 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELP[/cyan] | Noida | disposable cutlery
+2026-06-06 16:54:11,018 [INFO] CrawlerOrchestrator: Running crawl for Site: yelp, City: Delhi, Category: Hotel Kit Suppliers
+2026-06-06 16:54:11,018 [INFO] YelpCrawler: YELP_API_KEY not found. Attempting Playwright scraping.
+2026-06-06 16:54:11,291 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 16:54:11,428 [INFO] YelpCrawler: Navigating to: https://www.yelp.com/search?find_desc=Hotel+Kit+Suppliers&find_loc=Delhi
+2026-06-06 16:54:17,877 [INFO] YelpCrawler: Found 0 unique Yelp business detail URLs.
+2026-06-06 16:54:17,945 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELP[/cyan] | Delhi | Hotel Kit Suppliers
+2026-06-06 16:54:17,945 [INFO] CrawlerOrchestrator: Running crawl for Site: yelp, City: Delhi, Category: disposable cutlery
+2026-06-06 16:54:17,945 [INFO] YelpCrawler: YELP_API_KEY not found. Attempting Playwright scraping.
+2026-06-06 16:54:18,228 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 16:54:18,369 [INFO] YelpCrawler: Navigating to: https://www.yelp.com/search?find_desc=disposable+cutlery&find_loc=Delhi
+2026-06-06 16:54:24,075 [INFO] YelpCrawler: Found 0 unique Yelp business detail URLs.
+2026-06-06 16:54:24,159 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELP[/cyan] | Delhi | disposable cutlery
+2026-06-06 16:54:24,271 [INFO] CrawlerUtils: Successfully saved 40 listings to:
+2026-06-06 16:54:24,271 [INFO] CrawlerUtils:  - CSV: output\business_listings.csv
+2026-06-06 16:54:24,272 [INFO] CrawlerUtils:  - Excel: output\business_listings.xlsx
+2026-06-06 16:55:51,518 [INFO] CrawlerOrchestrator: Running crawl for Site: justdial, City: Mumabi, Category: Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 16:55:51,813 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0
+2026-06-06 16:55:51,975 [INFO] JustdialCrawler: Navigating to Justdial: https://www.justdial.com/Mumabi/Cleaning-and-Hotel-Supplier-shops-wholesalers
+2026-06-06 16:56:36,985 [ERROR] JustdialCrawler: Error in JustdialCrawler run: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.justdial.com/Mumabi/Cleaning-and-Hotel-Supplier-shops-wholesalers", waiting until "domcontentloaded"
+
+2026-06-06 16:56:37,100 [INFO] CrawlerOrchestrator: No listings found for [cyan]JUSTDIAL[/cyan] | Mumabi | Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 16:56:37,100 [INFO] CrawlerOrchestrator: Running crawl for Site: justdial, City: Mumabi, Category: disposable cutlery
+2026-06-06 16:56:37,406 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 16:56:37,582 [INFO] JustdialCrawler: Navigating to Justdial: https://www.justdial.com/Mumabi/disposable-cutlery
+2026-06-06 16:57:22,596 [ERROR] JustdialCrawler: Error in JustdialCrawler run: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.justdial.com/Mumabi/disposable-cutlery", waiting until "domcontentloaded"
+
+2026-06-06 16:57:22,682 [INFO] CrawlerOrchestrator: No listings found for [cyan]JUSTDIAL[/cyan] | Mumabi | disposable cutlery
+2026-06-06 16:57:22,682 [INFO] CrawlerOrchestrator: Running crawl for Site: justdial, City: Delhi, Category: Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 16:57:23,017 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 16:57:23,190 [INFO] JustdialCrawler: Navigating to Justdial: https://www.justdial.com/Delhi/Cleaning-and-Hotel-Supplier-shops-wholesalers
+2026-06-06 16:58:08,208 [ERROR] JustdialCrawler: Error in JustdialCrawler run: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.justdial.com/Delhi/Cleaning-and-Hotel-Supplier-shops-wholesalers", waiting until "domcontentloaded"
+
+2026-06-06 16:58:08,285 [INFO] CrawlerOrchestrator: No listings found for [cyan]JUSTDIAL[/cyan] | Delhi | Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 16:58:08,285 [INFO] CrawlerOrchestrator: Running crawl for Site: justdial, City: Delhi, Category: disposable cutlery
+2026-06-06 16:58:08,572 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0
+2026-06-06 16:58:08,734 [INFO] JustdialCrawler: Navigating to Justdial: https://www.justdial.com/Delhi/disposable-cutlery
+2026-06-06 16:58:53,756 [ERROR] JustdialCrawler: Error in JustdialCrawler run: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.justdial.com/Delhi/disposable-cutlery", waiting until "domcontentloaded"
+
+2026-06-06 16:58:53,925 [INFO] CrawlerOrchestrator: No listings found for [cyan]JUSTDIAL[/cyan] | Delhi | disposable cutlery
+2026-06-06 16:58:53,926 [INFO] CrawlerOrchestrator: Running crawl for Site: indiamart, City: Mumabi, Category: Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 16:58:54,515 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0
+2026-06-06 16:58:54,804 [INFO] IndiamartCrawler: Navigating to Indiamart: https://dir.indiamart.com/search.mp?ss=Cleaning+and+Hotel+Supplier+shops+wholesalers&cq=Mumabi
+2026-06-06 16:59:00,152 [INFO] IndiamartCrawler: Scrolling down Indiamart listings...
+2026-06-06 16:59:01,791 [INFO] IndiamartCrawler: Found 0 listings on Indiamart.
+2026-06-06 16:59:01,916 [INFO] CrawlerOrchestrator: No listings found for [cyan]INDIAMART[/cyan] | Mumabi | Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 16:59:01,916 [INFO] CrawlerOrchestrator: Running crawl for Site: indiamart, City: Mumabi, Category: disposable cutlery
+2026-06-06 16:59:02,261 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 16:59:02,498 [INFO] IndiamartCrawler: Navigating to Indiamart: https://dir.indiamart.com/search.mp?ss=disposable+cutlery&cq=Mumabi
+2026-06-06 16:59:06,913 [INFO] IndiamartCrawler: Scrolling down Indiamart listings...
+2026-06-06 16:59:08,818 [INFO] IndiamartCrawler: Found 0 listings on Indiamart.
+2026-06-06 16:59:08,936 [INFO] CrawlerOrchestrator: No listings found for [cyan]INDIAMART[/cyan] | Mumabi | disposable cutlery
+2026-06-06 16:59:08,938 [INFO] CrawlerOrchestrator: Running crawl for Site: indiamart, City: Delhi, Category: Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 16:59:09,296 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2026-06-06 16:59:09,567 [INFO] IndiamartCrawler: Navigating to Indiamart: https://dir.indiamart.com/search.mp?ss=Cleaning+and+Hotel+Supplier+shops+wholesalers&cq=Delhi
+2026-06-06 16:59:16,206 [INFO] IndiamartCrawler: Scrolling down Indiamart listings...
+2026-06-06 16:59:17,903 [INFO] IndiamartCrawler: Found 0 listings on Indiamart.
+2026-06-06 16:59:18,030 [INFO] CrawlerOrchestrator: No listings found for [cyan]INDIAMART[/cyan] | Delhi | Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 16:59:18,030 [INFO] CrawlerOrchestrator: Running crawl for Site: indiamart, City: Delhi, Category: disposable cutlery
+2026-06-06 16:59:18,479 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 16:59:18,720 [INFO] IndiamartCrawler: Navigating to Indiamart: https://dir.indiamart.com/search.mp?ss=disposable+cutlery&cq=Delhi
+2026-06-06 16:59:22,899 [INFO] IndiamartCrawler: Scrolling down Indiamart listings...
+2026-06-06 16:59:24,425 [INFO] IndiamartCrawler: Found 0 listings on Indiamart.
+2026-06-06 16:59:24,524 [INFO] CrawlerOrchestrator: No listings found for [cyan]INDIAMART[/cyan] | Delhi | disposable cutlery
+2026-06-06 16:59:24,524 [INFO] CrawlerOrchestrator: Running crawl for Site: tradeindia, City: Mumabi, Category: Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 16:59:24,804 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 16:59:24,982 [INFO] TradeindiaCrawler: Navigating to Tradeindia: https://www.tradeindia.com/search.html?keyword=Cleaning+and+Hotel+Supplier+shops+wholesalers&city=Mumabi
+2026-06-06 16:59:31,822 [INFO] TradeindiaCrawler: Scrolling down Tradeindia listings...
+2026-06-06 16:59:33,769 [INFO] TradeindiaCrawler: Found 1 listings on Tradeindia.
+2026-06-06 16:59:33,776 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: CHIRAG IMPEX | Phone: 
+2026-06-06 16:59:33,864 [INFO] CrawlerOrchestrator: Retrieved 1 listings from [cyan]TRADEINDIA[/cyan] | Mumabi | Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 16:59:34,016 [INFO] CrawlerUtils: Successfully saved 1 listings to:
+2026-06-06 16:59:34,018 [INFO] CrawlerUtils:  - CSV: output\business_listings.csv
+2026-06-06 16:59:34,018 [INFO] CrawlerUtils:  - Excel: output\business_listings.xlsx
+2026-06-06 16:59:34,018 [INFO] CrawlerOrchestrator: Running crawl for Site: tradeindia, City: Mumabi, Category: disposable cutlery
+2026-06-06 16:59:34,299 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 16:59:34,451 [INFO] TradeindiaCrawler: Navigating to Tradeindia: https://www.tradeindia.com/search.html?keyword=disposable+cutlery&city=Mumabi
+2026-06-06 16:59:44,143 [INFO] TradeindiaCrawler: Scrolling down Tradeindia listings...
+2026-06-06 16:59:45,923 [INFO] TradeindiaCrawler: Found 29 listings on Tradeindia.
+2026-06-06 16:59:45,926 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Disposable Point | Phone: 
+2026-06-06 16:59:45,929 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: DISPOSABLE POINT | Phone: 
+2026-06-06 16:59:45,930 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: ATUL TRADING COMPANY | Phone: 
+2026-06-06 16:59:45,932 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: RADIANT PLASTIC | Phone: 
+2026-06-06 16:59:45,934 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: GLORIIOUS INNOVATIONS | Phone: 
+2026-06-06 16:59:45,936 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SOLUTION 4U | Phone: 
+2026-06-06 16:59:45,937 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: RIDHHI FLEXIBLE PACKAGING | Phone: 
+2026-06-06 16:59:45,938 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: BEAUTY PLASTICS | Phone: 
+2026-06-06 16:59:45,939 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Jain Plascons | Phone: 
+2026-06-06 16:59:45,941 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SUKH JAN DISPOSABLES LLP | Phone: 
+2026-06-06 16:59:46,024 [INFO] CrawlerOrchestrator: Retrieved 10 listings from [cyan]TRADEINDIA[/cyan] | Mumabi | disposable cutlery
+2026-06-06 16:59:46,077 [INFO] CrawlerUtils: Successfully saved 11 listings to:
+2026-06-06 16:59:46,077 [INFO] CrawlerUtils:  - CSV: output\business_listings.csv
+2026-06-06 16:59:46,077 [INFO] CrawlerUtils:  - Excel: output\business_listings.xlsx
+2026-06-06 16:59:46,077 [INFO] CrawlerOrchestrator: Running crawl for Site: tradeindia, City: Delhi, Category: Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 16:59:46,394 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2026-06-06 16:59:46,584 [INFO] TradeindiaCrawler: Navigating to Tradeindia: https://www.tradeindia.com/search.html?keyword=Cleaning+and+Hotel+Supplier+shops+wholesalers&city=Delhi
+2026-06-06 17:00:31,603 [ERROR] TradeindiaCrawler: Error in TradeindiaCrawler run: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.tradeindia.com/search.html?keyword=Cleaning+and+Hotel+Supplier+shops+wholesalers&city=Delhi", waiting until "domcontentloaded"
+
+2026-06-06 17:00:31,694 [INFO] CrawlerOrchestrator: No listings found for [cyan]TRADEINDIA[/cyan] | Delhi | Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 17:00:31,694 [INFO] CrawlerOrchestrator: Running crawl for Site: tradeindia, City: Delhi, Category: disposable cutlery
+2026-06-06 17:00:31,974 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 17:00:32,113 [INFO] TradeindiaCrawler: Navigating to Tradeindia: https://www.tradeindia.com/search.html?keyword=disposable+cutlery&city=Delhi
+2026-06-06 17:00:45,282 [INFO] TradeindiaCrawler: Scrolling down Tradeindia listings...
+2026-06-06 17:00:46,865 [INFO] TradeindiaCrawler: Found 29 listings on Tradeindia.
+2026-06-06 17:00:46,868 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Disposable Point | Phone: 
+2026-06-06 17:00:46,870 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: DISPOSABLE POINT | Phone: 
+2026-06-06 17:00:46,871 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: ATUL TRADING COMPANY | Phone: 
+2026-06-06 17:00:46,873 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: RADIANT PLASTIC | Phone: 
+2026-06-06 17:00:46,875 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: GLORIIOUS INNOVATIONS | Phone: 
+2026-06-06 17:00:46,877 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SOLUTION 4U | Phone: 
+2026-06-06 17:00:46,878 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: RIDHHI FLEXIBLE PACKAGING | Phone: 
+2026-06-06 17:00:46,879 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: BEAUTY PLASTICS | Phone: 
+2026-06-06 17:00:46,880 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: Jain Plascons | Phone: 
+2026-06-06 17:00:46,882 [INFO] TradeindiaCrawler: Scraped Tradeindia listing: SUKH JAN DISPOSABLES LLP | Phone: 
+2026-06-06 17:00:46,962 [INFO] CrawlerOrchestrator: Retrieved 10 listings from [cyan]TRADEINDIA[/cyan] | Delhi | disposable cutlery
+2026-06-06 17:00:47,016 [INFO] CrawlerUtils: Successfully saved 21 listings to:
+2026-06-06 17:00:47,016 [INFO] CrawlerUtils:  - CSV: output\business_listings.csv
+2026-06-06 17:00:47,016 [INFO] CrawlerUtils:  - Excel: output\business_listings.xlsx
+2026-06-06 17:00:47,017 [INFO] CrawlerOrchestrator: Running crawl for Site: yellowpages, City: Mumabi, Category: Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 17:00:47,297 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2026-06-06 17:00:47,446 [INFO] YellowpagesCrawler: Navigating to: https://www.yellowpages.com/search?search_terms=Cleaning+and+Hotel+Supplier+shops+wholesalers&geo_location_terms=Mumabi
+2026-06-06 17:00:52,826 [INFO] YellowpagesCrawler: Found 0 listing cards.
+2026-06-06 17:00:52,826 [INFO] YellowpagesCrawler: Extracted 0 detail URLs to crawl.
+2026-06-06 17:00:52,900 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELLOWPAGES[/cyan] | Mumabi | Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 17:00:52,900 [INFO] CrawlerOrchestrator: Running crawl for Site: yellowpages, City: Mumabi, Category: disposable cutlery
+2026-06-06 17:00:53,181 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0
+2026-06-06 17:00:53,335 [INFO] YellowpagesCrawler: Navigating to: https://www.yellowpages.com/search?search_terms=disposable+cutlery&geo_location_terms=Mumabi
+2026-06-06 17:00:57,410 [INFO] YellowpagesCrawler: Found 0 listing cards.
+2026-06-06 17:00:57,411 [INFO] YellowpagesCrawler: Extracted 0 detail URLs to crawl.
+2026-06-06 17:00:57,479 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELLOWPAGES[/cyan] | Mumabi | disposable cutlery
+2026-06-06 17:00:57,479 [INFO] CrawlerOrchestrator: Running crawl for Site: yellowpages, City: Delhi, Category: Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 17:00:57,762 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0
+2026-06-06 17:00:57,912 [INFO] YellowpagesCrawler: Navigating to: https://www.yellowpages.com/search?search_terms=Cleaning+and+Hotel+Supplier+shops+wholesalers&geo_location_terms=Delhi
+2026-06-06 17:01:03,182 [INFO] YellowpagesCrawler: Found 0 listing cards.
+2026-06-06 17:01:03,183 [INFO] YellowpagesCrawler: Extracted 0 detail URLs to crawl.
+2026-06-06 17:01:03,251 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELLOWPAGES[/cyan] | Delhi | Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 17:01:03,252 [INFO] CrawlerOrchestrator: Running crawl for Site: yellowpages, City: Delhi, Category: disposable cutlery
+2026-06-06 17:01:03,534 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 17:01:03,683 [INFO] YellowpagesCrawler: Navigating to: https://www.yellowpages.com/search?search_terms=disposable+cutlery&geo_location_terms=Delhi
+2026-06-06 17:01:08,422 [INFO] YellowpagesCrawler: Found 0 listing cards.
+2026-06-06 17:01:08,422 [INFO] YellowpagesCrawler: Extracted 0 detail URLs to crawl.
+2026-06-06 17:01:08,499 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELLOWPAGES[/cyan] | Delhi | disposable cutlery
+2026-06-06 17:01:08,499 [INFO] CrawlerOrchestrator: Running crawl for Site: yelp, City: Mumabi, Category: Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 17:01:08,499 [INFO] YelpCrawler: YELP_API_KEY not found. Attempting Playwright scraping.
+2026-06-06 17:01:08,779 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 17:01:08,936 [INFO] YelpCrawler: Navigating to: https://www.yelp.com/search?find_desc=Cleaning+and+Hotel+Supplier+shops+wholesalers&find_loc=Mumabi
+2026-06-06 17:01:16,678 [INFO] YelpCrawler: Found 0 unique Yelp business detail URLs.
+2026-06-06 17:01:16,753 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELP[/cyan] | Mumabi | Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 17:01:16,754 [INFO] CrawlerOrchestrator: Running crawl for Site: yelp, City: Mumabi, Category: disposable cutlery
+2026-06-06 17:01:16,754 [INFO] YelpCrawler: YELP_API_KEY not found. Attempting Playwright scraping.
+2026-06-06 17:01:17,041 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+2026-06-06 17:01:17,194 [INFO] YelpCrawler: Navigating to: https://www.yelp.com/search?find_desc=disposable+cutlery&find_loc=Mumabi
+2026-06-06 17:01:22,886 [INFO] YelpCrawler: Found 0 unique Yelp business detail URLs.
+2026-06-06 17:01:22,967 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELP[/cyan] | Mumabi | disposable cutlery
+2026-06-06 17:01:22,968 [INFO] CrawlerOrchestrator: Running crawl for Site: yelp, City: Delhi, Category: Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 17:01:22,968 [INFO] YelpCrawler: YELP_API_KEY not found. Attempting Playwright scraping.
+2026-06-06 17:01:23,253 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0
+2026-06-06 17:01:23,409 [INFO] YelpCrawler: Navigating to: https://www.yelp.com/search?find_desc=Cleaning+and+Hotel+Supplier+shops+wholesalers&find_loc=Delhi
+2026-06-06 17:01:29,131 [INFO] YelpCrawler: Found 0 unique Yelp business detail URLs.
+2026-06-06 17:01:29,216 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELP[/cyan] | Delhi | Cleaning and Hotel Supplier shops wholesalers
+2026-06-06 17:01:29,216 [INFO] CrawlerOrchestrator: Running crawl for Site: yelp, City: Delhi, Category: disposable cutlery
+2026-06-06 17:01:29,216 [INFO] YelpCrawler: YELP_API_KEY not found. Attempting Playwright scraping.
+2026-06-06 17:01:29,502 [INFO] CrawlerBase: Launching browser (Headless: True) with User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+2026-06-06 17:01:29,653 [INFO] YelpCrawler: Navigating to: https://www.yelp.com/search?find_desc=disposable+cutlery&find_loc=Delhi
+2026-06-06 17:01:36,188 [INFO] YelpCrawler: Found 0 unique Yelp business detail URLs.
+2026-06-06 17:01:36,272 [INFO] CrawlerOrchestrator: No listings found for [cyan]YELP[/cyan] | Delhi | disposable cutlery
+2026-06-06 17:01:36,314 [INFO] CrawlerUtils: Successfully saved 21 listings to:
+2026-06-06 17:01:36,314 [INFO] CrawlerUtils:  - CSV: output\business_listings.csv
+2026-06-06 17:01:36,314 [INFO] CrawlerUtils:  - Excel: output\business_listings.xlsx
