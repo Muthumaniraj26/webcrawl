@@ -87,7 +87,7 @@ You can filter the run using command-line arguments:
 
 *Example*:
 ```bash
-python main.py --sites yellowpages yelp --cities Mumbai Pune --categories "Housekeeping Services" --limit 5 --output-name test_run
+python main.py --cities Noida Delhi --categories "Hotel Kit Suppliers" "disposable cutlery" --limit 10
 ```
 
 All final results are saved in the `output/` directory as both:
